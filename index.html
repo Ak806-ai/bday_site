@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080707">
+  <title>PROJECT 1025 // Incoming Transmission</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Special+Elite&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="terminal" aria-labelledby="project-title">
+    <div class="topline"><span>HELL'S KITCHEN // SECURE CHANNEL</span><span class="signal"><i></i> SIGNAL LIVE</span></div>
+    <div class="scanline" aria-hidden="true"></div>
+
+    <section class="transmission" id="transmission">
+      <div class="eyebrow">PROJECT 1025 <span>·</span> CLASSIFIED</div>
+      <h1 id="project-title">THE DEVIL’S<br><em>TWENTIETH</em></h1>
+      <p class="subhead">INCOMING TRANSMISSION</p>
+
+      <div class="terminal-window" aria-live="polite">
+        <div class="terminal-head"><span>RECIPIENT IDENTIFICATION</span><span>ENCRYPTION: ACTIVE</span></div>
+        <div class="terminal-copy" id="terminal-copy"></div>
+        <span class="cursor" aria-hidden="true">_</span>
+      </div>
+
+      <button class="initiate" id="initiate" type="button" disabled>
+        <span class="button-mark">▶</span> INITIATE INVESTIGATION
+      </button>
+      <p class="hint">A PERSONAL FILE HAS BEEN PREPARED FOR YOUR EYES ONLY.</p>
+    </section>
+    <section class="dossier hidden" id="dossier" aria-labelledby="dossier-title" aria-hidden="true">
+      <div class="eyebrow">EVIDENCE FILE 001 <span>·</span> PERSONALLY COMPROMISED</div>
+      <h2 id="dossier-title">THE <em>SUSPECT</em></h2>
+      <p class="subhead">SUBJECT PROFILE // DO NOT DISTRIBUTE</p>
+      <div class="dossier-card">
+        <div class="dossier-top"><span>SUBJECT: THE BIRTHDAY BOY</span><span class="stamp">CLASSIFIED</span></div>
+        <dl>
+          <div><dt>CURRENT AGE</dt><dd>19 <span class="arrow">→</span> 20</dd></div>
+          <div><dt>KNOWN INTERESTS</dt><dd>Daredevil, old songs, ghazals</dd></div>
+          <div><dt>DANGEROUS HABIT</dt><dd>Stealing someone's attention</dd></div>
+          <div><dt>SPECIAL ABILITY</dt><dd>Living rent-free in someone's mind</dd></div>
+          <div><dt>INVESTIGATION STATUS</dt><dd class="red">PERSONALLY COMPROMISED</dd></div>
+        </dl>
+      </div>
+      <div class="evidence-notes">
+        <div class="note-label">OBSERVED BEHAVIOUR</div>
+        <p>During roleplays: gets <em>bhand</em> (sleepy), then turns all lovey.</p>
+        <p>Attempts to flirt. Becomes shyer than the investigator.</p>
+      </div>
+      <button class="initiate next-step" id="access-evidence" type="button"><span class="button-mark">▶</span> ACCESS EVIDENCE FILES</button>
+      <p class="hint">WARNING: FILES MAY CONTAIN UNREASONABLE AMOUNTS OF AFFECTION.</p>
+    </section>
+    <section class="music-vault hidden" id="music-vault" aria-labelledby="vault-title" aria-hidden="true">
+      <div class="eyebrow">EVIDENCE FILE 002 <span>·</span> SOUND ARCHIVE</div>
+      <h2 id="vault-title">THE MUSIC <em>VAULT</em></h2>
+      <p class="subhead">SOUNDS FROM ANOTHER TIME // SELECT A RECORD</p>
+      <div class="archive-grid">
+        <article class="archive-card amber">
+          <div class="archive-number">ARCHIVE 001</div>
+          <div class="record-art" aria-hidden="true"><span>♪</span></div>
+          <div class="archive-artist">PAPON</div>
+          <h3>Jiyein Kyun</h3>
+          <p class="song-note">“yes i remember u said that u used to listen to this song on repeat, so here u goo, listen to it and enjoy”</p>
+          <button class="listen-link play-track" type="button" data-video-id="szdRoROQy_c" aria-expanded="false">▶ PLAY IN THE VAULT</button>
+          <div class="inline-player hidden"></div>
+        </article>
+        <article class="archive-card blue">
+          <div class="archive-number">ARCHIVE 002</div>
+          <div class="record-art" aria-hidden="true"><span>♫</span></div>
+          <div class="archive-artist">BHARAT CHAUHAN</div>
+          <h3>Tu Hoti Toh</h3>
+          <p class="song-note">“Yeah I know u enjoy sad music 😑😑and then u say me not to listen kyuki me depressed ho jaugi 😑😑crazyyyyyyyyyyy”</p>
+          <button class="listen-link play-track" type="button" data-video-id="CyoUiKewD1Q" aria-expanded="false">▶ PLAY IN THE VAULT</button>
+          <div class="inline-player hidden"></div>
+        </article>
+        <article class="archive-card blue">
+          <div class="archive-number">ARCHIVE 003</div>
+          <div class="record-art" aria-hidden="true"><span>♫</span></div>
+          <div class="archive-artist">BHARAT CHAUHAN</div>
+          <h3>Ghar</h3>
+          <p class="song-note quiet-note">SAVED TO YOUR FAVOURITES</p>
+          <button class="listen-link play-track" type="button" data-video-id="e44meSqTkH0" aria-expanded="false">▶ PLAY IN THE VAULT</button>
+          <div class="inline-player hidden"></div>
+        </article>
+        <article class="archive-card red-card">
+          <div class="archive-number">ARCHIVE 004</div>
+          <div class="record-art" aria-hidden="true"><span>♬</span></div>
+          <div class="archive-artist">IKKA</div>
+          <h3>Gojira</h3>
+          <p class="song-note quiet-note">SAVED TO YOUR FAVOURITES</p>
+          <button class="listen-link play-track" type="button" data-video-id="_aM9_HNShwE" aria-expanded="false">▶ PLAY IN THE VAULT</button>
+          <div class="inline-player hidden"></div>
+        </article>
+      </div>
+      <p class="hint vault-footnote">A FEW SONGS YOU LOVE, SAVED HERE FOR YOU.</p>
+      <button class="initiate next-step" id="signal-next" type="button"><span class="button-mark">▶</span> CONTINUE TO SIGNAL RECEIVED</button>
+    </section>
+    <section class="distance-level hidden" id="distance-level" aria-labelledby="distance-title" aria-hidden="true">
+      <div class="eyebrow">EVIDENCE FILE 003 <span>·</span> SIGNAL RECEIVED</div>
+      <h2 id="distance-title">DIFFERENT PLACES.<br><em>ONE LITTLE UNIVERSE.</em></h2>
+      <div class="star-map" aria-label="Two stars connected across the distance">
+        <div class="star-point you"><i></i><span>YOU</span></div>
+        <div class="star-connection"></div>
+        <div class="star-point him"><i></i><span>HIM</span></div>
+      </div>
+      <div class="distance-grid">
+        <button class="distance-card" type="button" data-dialog-target="miss-dialog"><span>01 / WHEN YOU MISS ME</span><b>Open a message from me ↗</b></button>
+        <button class="distance-card" type="button" data-dialog-target="heavy-dialog"><span>02 / WHEN LIFE FEELS HEAVY</span><b>A hug in letter form ↗</b></button>
+        <div class="distance-card adventures-card">
+          <span>03 / THINGS WE HAVEN’T DONE YET</span>
+          <b>Future adventures</b>
+          <label><input type="checkbox" class="adventure-check" value="Trekking"> Trekking</label>
+          <label><input type="checkbox" class="adventure-check" value="Hiking"> Hiking</label>
+          <label><input type="checkbox" class="adventure-check" value="Diving"> Diving</label>
+        </div>
+      </div>
+      <p class="hint distance-footnote">NO MATTER HOW FAR APART, THE SIGNAL GETS THROUGH.</p>
+      <button class="initiate next-step" id="game-next" type="button"><span class="button-mark">▶</span> BEGIN OPERATION: LEVEL 20</button>
+    </section>
+
+    <dialog class="letter-dialog" id="miss-dialog" aria-labelledby="miss-title">
+      <button class="dialog-close" type="button" aria-label="Close message">×</button>
+      <div class="eyebrow">SIGNAL 01 <span>·</span> FOR WHEN YOU MISS ME</div>
+      <h2 id="miss-title">A LITTLE MESSAGE</h2>
+      <p>Hmm ik, u dont like the distance, ofc i dont like it asw but lets stay optimistic that everything goes well and soon we will celebrate your birthday together and be there for each other even if its from screen. jus know that I LOVE YOUU SO MUCH. MUWAHHH 💋💋❤️</p>
+    </dialog>
+
+    <dialog class="letter-dialog heavy-dialog" id="heavy-dialog" aria-labelledby="heavy-title">
+      <button class="dialog-close" type="button" aria-label="Close letter">×</button>
+      <div class="eyebrow">SIGNAL 02 <span>·</span> FOR THE HEAVY DAYS</div>
+      <h2 id="heavy-title">COME HERE, BABY</h2>
+      <div class="comfort-letter">
+        <p>hii my baby boiii:(<br>come here, first of all. *biggest hug ever* 🫂❤️<br>i know i can't actually hug you rn and that makes me so sad sometimes because what do you MEAN i can't just come to you and hold you when you're not feeling okay??? like who allowed this long distance thing bro i wanna fight someone 😭</p>
+        <p>but baby yrrr, listen to me, okay?<br>you don't always have to be okay. you don't have to act like everything's fine when it's not. and you don't have to deal with everything on your own. if you're tired, be tired. if you're upset, be upset. if you don't feel like talking, that's okay too. you don't have to explain every little thing to me for me to love you.</p>
+        <p>i just wish i could be there with you sometimes. like imagine me sitting next to you, stealing your attention, annoying you a little, making you listen to songs with me, and hugging you until you forget about everything else for a while. AND YES I'D PROBABLY STILL ANNOY YOU EVEN IF YOU'RE SAD BECAUSE THAT'S MY JOB NOW 😭❤️</p>
+        <p>but seriously, my love, you mean so much to me. and i hope you never feel like you have to be happy all the time to deserve love. you could have the worst day ever, be in the worst mood ever, not wanna talk to anyone, and i'd still wanna know how you're doing. i'd still wanna be there for you in whatever way i can.</p>
+        <p>i know i can't magically fix everything that's bothering you, and i hate that sometimes all i can do is text you when i really wish i could just hold your hand instead. but please don't ever think that just because i'm far away, i care any less. I WISH I WAS THERE TOO, BABYYY . MORE THAN YOU KNOW. :(</p>
+        <p>and hey, you have SO MANY things left to experience, okay?? so many songs to listen to, so many memories to make, so many places to see. and selfishly, i want to be there for as many of those moments as i can. i wanna make stupid little memories with you. i wanna go on dates with you. i wanna sit next to you and listen to your old songs and watch you yap about things you love. I WANNA DO THE MOST NORMAL THINGS WITH YOU AND MAKE THEM SPECIAL JUST BECAUSE IT'S YOU. 😭</p>
+        <p>so for now, take a little break, baby. drink some water, listen to a song you love, and breathe for a bit, okay? you don't have to figure everything out right now.<br>and if nobody has told you this today, I'M SO PROUD OF YOU. even for the little things. even for the things you think don't matter. i'm proud of you for getting through days that aren't easy, and i hope you're proud of yourself too.</p>
+        <p>i wish i could kiss your forehead rn and tell you all of this while holding your face in my hands, but since the universe apparently has beef with us, you're gonna have to settle for this little message for now. 🙄❤️</p>
+        <p><strong>i love you, okay? on the good days, the bad days, the days you feel like yourself, and the days you don't. you never have to earn that love from me by being okay all the time.</strong></p>
+        <p>and one day, hopefully, when you're having a bad day, i won't have to type all of this out and hope my words make you feel a little better.<br>i'll just be there.<br>and i'll hug you for a really, REALLY long time.<br>(you are NOT getting out of that hug btw. try escaping, i dare you.)</p>
+        <p>i love you so much, my boy. please be a little kinder to yourself, okay? you deserve that too. :(<br><strong>now come here and collect your 100000 kisses. MUWAH MUWAH MUWAH.</strong> 💋❤️</p>
+        <p><em>*your girl, who's currently fighting the distance and losing her mind over you.* ♡</em></p>
+      </div>
+    </dialog>
+
+    <section class="operation hidden" id="operation" aria-labelledby="operation-title" aria-hidden="true">
+      <div class="eyebrow">EVIDENCE FILE 004 <span>·</span> LEVEL 20</div>
+      <h2 id="operation-title">OPERATION:<br><em>LEVEL 20</em></h2>
+      <p class="subhead">TWO MISSIONS. SIX QUESTIONS. YOU’VE GOT THIS.</p>
+      <div class="mission-progress" aria-label="Mission progress"><div id="mission-progress-fill"></div></div>
+      <div class="mission-status" id="mission-status" aria-live="polite">MISSION 01 OF 02 // DAREDEVIL</div>
+      <div class="quiz-card" id="quiz-card"></div>
+      <div class="mission-complete hidden" id="mission-complete" aria-live="polite">
+        <div class="complete-seal">✓</div>
+        <h3>ALL MISSIONS COMPLETED.</h3>
+        <p>SUBJECT VERIFIED.<br>LEVEL 20 UNLOCKED.<br>SPECIAL REWARD AVAILABLE.</p>
+        <button class="initiate" id="claim-reward" type="button"><span class="button-mark">▶</span> CLAIM YOUR REWARD</button>
+      </div>
+    </section>
+    <section class="final-transmission hidden" id="final-transmission" aria-labelledby="final-title" aria-hidden="true">
+      <div class="eyebrow">FINAL FILE <span>·</span> OPENED</div>
+      <div class="warm-light" aria-hidden="true"></div>
+      <h2 id="final-title">HAPPY 20TH BIRTHDAY,<br><em>NIT THE GOAT.</em></h2>
+      <article class="birthday-letter">
+        <p>hii my birthday boyyy 🥹❤️</p>
+        <p><strong>HAPPY 20TH BIRTHDAY, NIT THE GOAT!!!</strong> 🎂🎉</p>
+        <p>okay so you’re officially 20 now, which is kind of crazy because how are you somehow getting older and still getting shyer every time you try to flirt with me 😭</p>
+        <p>i hope today makes you feel extra loved, because you deserve so much of it. i wish i could be there beside you to celebrate properly, give you the biggest hug ever, steal your attention, and probably annoy you a little. but even from here, i’m celebrating you with my whole heart.</p>
+        <p>i’m so grateful for you—for the way you make me smile, for our little roleplays where you get all sleepy and lovey, and for all the tiny things that make you <em>you</em>. you’ve taken up a ridiculous amount of space in my heart, and honestly, you can stay there rent-free forever 😌❤️</p>
+        <p>i hope this new year brings you so many good things, lovely moments, songs you can listen to on repeat, and days that feel a little lighter. and when things get hard, remember you don’t have to handle everything alone. i’m always here, cheering for you, loving you, and reminding you how proud i am of you—even from a screen.</p>
+        <p>there are so many things i can’t wait for us to do together: trek, hike, go diving, listen to music, make silly memories, and someday celebrate your birthday side by side. until then, just know i’m right here, missing you, rooting for you, and loving you so so much.</p>
+        <p>happy birthday, my baby boy. i hope you have the sweetest day. now come collect your 100000 kisses—and don’t even think about escaping the hug 😤💋❤️</p>
+        <p><strong>i love you more than i can fit into one message. happy 20th, NIT THE GOAT.</strong></p>
+        <p class="letter-signoff">your girl, who’s still fighting the distance and losing her mind over you ♡</p>
+      </article>
+      <div class="voice-note" id="voice-note-wrap">
+        <div class="voice-label"><span class="voice-dot"></span> A VOICE NOTE, JUST FOR YOU</div>
+        <p id="voice-note-placeholder">Your voice note goes here. Add your recording as <code>voice-note.mp3</code> beside the website files.</p>
+        <audio id="voice-note" controls preload="metadata" src="voice-note.mp3" hidden></audio>
+      </div>
+      <button class="initiate replay-button" id="play-again" type="button"><span class="button-mark">↺</span> PLAY AGAIN</button>
+    </section>
+    <footer><span>CASE NO. 1025-20</span><span>NO SIGNAL IS EVER TRULY LOST</span></footer>
+  </main>
+  <div class="red-flash" id="red-flash" aria-hidden="true"></div>
+  <script src="script.js"></script>
+</body>
+</html>
